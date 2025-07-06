@@ -1,6 +1,8 @@
 # Trust Lock
 
-![License](https://github.com/BigSamBuilds/TrustLock/blob/main/Design/icon.png)
+<p align="center">
+  <img src="https://github.com/BigSamBuilds/TrustLock/blob/main/Design/icon.png" alt="License" width="300"/>
+</p>
 
 ## Table of Contents
 - [Introduction](#introduction)
