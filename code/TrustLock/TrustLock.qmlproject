@@ -2,7 +2,7 @@ import QmlProject
 
 Project {
     mainFile: "TrustLockContent/App.qml"
-    mainUiFile: "TrustLockContent/Screen01.ui.qml"
+    mainUiFile: "TrustLockContent/TrustLockLogin.ui.qml"
 
     /* Include .qml, .js, and image files from current directory and subdirectories */
     QmlFiles {

@@ -1,0 +1,17 @@
+<RCC>
+    <qresource>
+        <file>qtquickcontrols2.conf</file>
+        <file>TrustLock.qmlproject</file>
+        <file>TrustLock/Constants.qml</file>
+        <file>TrustLock/DirectoryFontLoader.qml</file>
+        <file>TrustLock/EventListModel.qml</file>
+        <file>TrustLock/EventListSimulator.qml</file>
+        <file>TrustLock/qmldir</file>
+        <file>TrustLockContent/App.qml</file>
+        <file>TrustLockContent/images/icon.png</file>
+        <file>TrustLockContent/MiniLogin.ui.qml</file>
+        <file>TrustLockContent/SignUp.ui.qml</file>
+        <file>TrustLockContent/TrustLockLogin.ui.qml</file>
+        <file>TrustLockContent/TrustLockMain.ui.qml</file>
+    </qresource>
+</RCC>

@@ -5,15 +5,35 @@ import QtQuick 6.7
 import TrustLock
 
 Window {
-    width: mainScreen.width
-    height: mainScreen.height
+
+
 
     visible: true
     title: "TrustLock"
 
-    Screen01 {
-        id: mainScreen
+    property  bool winSwitch: false
+
+    width: winSwitch ? 500 : 1200
+    height: winSwitch ? 715 : 1000
+
+    // flags: winSwitch ? (Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint) : Qt.Window
+
+    Loader {
+        id: screenloader
+        anchors.fill: parent
+        source: winSwitch ? "SignUp.ui.qml" : "SignUp.ui.qml"
     }
+
+    // TrustLockLogin {
+    //     id: mainScreen
+    // }
+
+    // MiniLogin {
+    //     id:  miniScreen
+    //     radius: 5
+    // }
+
+
 
 }
 
