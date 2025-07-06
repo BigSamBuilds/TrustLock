@@ -1,5 +1,4 @@
-```markdown
-# Open Source Advanced Password Manager
+# Trust Lock
 
 ![License](https://github.com/BigSamBuilds/TrustLock/blob/main/Design/icon.png)
 
@@ -14,7 +13,7 @@
 - [Contact](#contact)
 
 ## Introduction
-Open Source Advanced Password Manager is a modern application designed to securely store and manage user passwords using the latest encryption technologies. With a robust backend powered by FastAPI, it ensures high performance and scalability, while the user interface is crafted with QML and C++ for a seamless experience.
+Trust Lock is a modern application designed to securely store and manage user passwords using the latest encryption technologies. With a robust backend powered by FastAPI, it ensures high performance and scalability, while the user interface is crafted with QML and C++ for a seamless experience.
 
 This project prioritizes security and promotes community collaboration and transparency. It is developed with user input and contributions, making it a reliable tool for managing digital identities.
 
@@ -37,7 +36,7 @@ This project prioritizes security and promotes community collaboration and trans
 - **Development**: Open-source collaboration
 
 ## Installation
-To install the Open Source Advanced Password Manager, follow these steps:
+To install the Trust Lock, follow these steps:
 
 1. Clone the repository:
    ```bash
@@ -60,7 +59,7 @@ To install the Open Source Advanced Password Manager, follow these steps:
 2. Follow the on-screen instructions to set up your password manager.
 
 ## Contributing
-We welcome contributions from the community! To contribute to the Open Source Advanced Password Manager, please follow these steps:
+We welcome contributions from the community! To contribute to the Trust Lock, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
@@ -86,5 +85,4 @@ For any inquiries or feedback, please contact:
 
 ---
 
-Thank you for checking out the Open Source Advanced Password Manager! We hope you find it useful in managing your digital security.
-```
+Thank you for checking out the TrustLock! We hope you find it useful in managing your digital security.
