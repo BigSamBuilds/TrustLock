@@ -1,7 +1,7 @@
 # Trust Lock
 
 <p align="center">
-  <img src="https://github.com/BigSamBuilds/TrustLock/blob/main/Design/icon.png" alt="License" width="100" height="100"/>
+  <img src="https://github.com/BigSamBuilds/TrustLock/blob/main/Design/icon.png" alt="License" width="200" height="200"/>
 </p>
 
 ## Table of Contents
