@@ -83,7 +83,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 For any inquiries or feedback, please contact:
-- **GitHub**: [yourusername](github.com/BigSamBuilds)
+- **GitHub**: [BigSamBuilds](github.com/BigSamBuilds)
 
 ---
 
