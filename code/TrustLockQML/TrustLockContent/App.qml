@@ -21,7 +21,7 @@ Window {
     Loader {
         id: screenloader
         anchors.fill: parent
-        source: winSwitch ? "SignUp.ui.qml" : "SignUp.ui.qml"
+        source: winSwitch ? "SignUp.ui.qml" : "TrustLockMain.ui.qml"
     }
 
     // TrustLockLogin {

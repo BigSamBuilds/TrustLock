@@ -8,6 +8,7 @@
         <file>TrustLock/EventListSimulator.qml</file>
         <file>TrustLock/qmldir</file>
         <file>TrustLockContent/App.qml</file>
+        <file>TrustLockContent/CustomTabBar.qml</file>
         <file>TrustLockContent/images/icon.png</file>
         <file>TrustLockContent/MiniLogin.ui.qml</file>
         <file>TrustLockContent/SignUp.ui.qml</file>
