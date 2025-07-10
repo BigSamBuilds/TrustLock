@@ -12,3 +12,13 @@ login::~login()
 {
     delete ui;
 }
+
+void login::changeView(){
+
+}
+
+void login::on_MinimizeBtn_clicked()
+{
+
+}
+

@@ -15,6 +15,13 @@ public:
     explicit login(QWidget *parent = nullptr);
     ~login();
 
+    bool changeFrame = false;
+
+    void changeView();
+
+private slots:
+    void on_MinimizeBtn_clicked();
+
 private:
     Ui::login *ui;
 };
