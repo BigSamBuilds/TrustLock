@@ -19,5 +19,8 @@ public:
 
 private:
     Ui::TrustLock *ui;
+
+protected:
+
 };
 #endif // TRUSTLOCK_H
