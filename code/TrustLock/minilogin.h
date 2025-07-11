@@ -20,6 +20,7 @@ public:
 
 private:
     bool clickPressed = false;
+    QPoint offset;
 
 signals:
     protected:

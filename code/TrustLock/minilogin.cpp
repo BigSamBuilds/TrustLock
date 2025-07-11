@@ -25,8 +25,9 @@ bool MiniLogin::event(QEvent *event){
     {
         QMouseEvent *m_ev = static_cast<QMouseEvent *>(event);
         if(m_ev ->button() == Qt::LeftButton){
-            qDebug() <<  "clicked";
+            // qDebug() <<  "clicked";
             clickPressed = true;
+            offset = m_ev->pos();
             return true;
         }else
             return QWidget::event(event);
@@ -36,7 +37,7 @@ bool MiniLogin::event(QEvent *event){
     if(event->type() == QEvent::MouseButtonRelease){
         QMouseEvent *m_ev = static_cast<QMouseEvent *>(event);
         if(m_ev->button() == Qt::LeftButton){
-            qDebug() << "released";
+            // qDebug() << "released";
             clickPressed = false;
             return true;
         }
@@ -45,12 +46,12 @@ bool MiniLogin::event(QEvent *event){
 }
 
 void MiniLogin::mouseMoveEvent(QMouseEvent *event){
-    if(clickPressed){
-        qDebug() << event->pos().x() << " : " << event->pos().y();
-        int x = event->pos().x();
-        int y = event->pos().y();
-        int wind_x = (x+pos().x());
-        int wind_y = (y+pos().y());
-        this->move(wind_x, wind_y);
+    if (clickPressed) {
+
+        QPoint globalMousePos =  event->globalPosition().toPoint();
+
+        QPoint newPos = globalMousePos - offset;
+
+        this->move(newPos);
     }
 }

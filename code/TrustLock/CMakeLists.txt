@@ -26,6 +26,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Resources.qrc
         login.h login.cpp login.ui
         minilogin.h minilogin.cpp minilogin.ui
+        registration.h registration.cpp registration.ui
 
     )
 # Define target properties for Android with Qt 6 as:

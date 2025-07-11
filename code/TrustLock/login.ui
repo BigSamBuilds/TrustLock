@@ -18,7 +18,7 @@
     <normaloff>:/Images/images/fav_icon.ico</normaloff>:/Images/images/fav_icon.ico</iconset>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: #c9c7c9;</string>
+   <string notr="true">background-color: #527aad;</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="0">
@@ -53,7 +53,7 @@
         </size>
        </property>
        <property name="styleSheet">
-        <string notr="true">background-color: #22a4c7;
+        <string notr="true">background-color: #0090ff;
  border-radius: 10px;
 </string>
        </property>
